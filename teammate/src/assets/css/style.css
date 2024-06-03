@@ -1,0 +1,258 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.containerflex {
+    display: flex;
+}
+
+.header {
+    background-color: rgba(3, 15, 175, 0.719);
+    top: 0;
+    position: sticky;
+    width: 100%;
+    display: inline;
+    color: #dddcdf;
+    padding: 15px;
+}
+
+.padding {
+    padding-left: 10px;
+}
+
+.floatleft {
+    float: left;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.centro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+
+}
+
+.right {
+    display: flex;
+    justify-content: right;
+}
+
+.end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.start {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.rows {
+    display: inline-flex;
+}
+
+.left {
+    display: flex;
+    justify-content: left;
+}
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.body {
+    background:
+        linear-gradient(50deg, #383636, #3a3a3a);
+    background-image: url(../images/fundo.png);
+    background-size: cover;
+    background-attachment: fixed;
+    text-decoration: none;
+}
+
+
+
+#btn-roxo {
+    height: 100%;
+    color: rgb(207, 207, 207);
+    background-color: #2632db;
+    border: 0;
+    text-align: center;
+    padding: 6px;
+    border-radius: 10%;
+}
+
+.margin {
+    margin: 5px;
+}
+
+.margin2 {
+    margin: 10px;
+}
+
+#btn-roxo:hover {
+    background-color: rgb(58, 55, 255);
+}
+
+#local {
+    color: rgb(132, 0, 255);
+}
+
+.nav-link {
+    color: rgb(212, 212, 212);
+}
+
+.nav-link:hover {
+    color: rgb(181, 44, 223);
+}
+
+.footer {
+    position: relative;
+    align-content: center;
+    bottom: 0;
+    clear: both;
+    width: 100%;
+    background-color: #0e0a0d;
+    color: rgb(226, 226, 226);
+    padding: 10px;
+}
+
+
+.box {
+    display: flex;
+
+}
+
+#caixa {
+    background-color: #4136d6;
+    width: 80%;
+    padding: 20px;
+    border-radius: 5px;
+    width: auto;
+    max-width: 900px;
+}
+
+#caixa3 {
+    background-color: #4136d6;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10%;
+    width: auto;
+    max-width: 500px;
+}
+
+.caixa2 {
+    margin-top: 20px;
+    background-color: #dddcdf;
+    width: 80%;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+input {
+    border-radius: 5%;
+    color: #0e0a0d;
+}
+
+.perfil {
+    background-color: rgb(16, 14, 124);
+
+    padding: 5%;
+    margin: 5%;
+    border-radius: 5px;
+    color: #dddcdf;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.registro {
+    background-color: rgb(99, 96, 236);
+    width: 30%;
+    height: 60%;
+    padding: 15%;
+    margin: 20%;
+    border-radius: 5px;
+}
+
+.btn-jogo {
+    background-color: #2e31cf;
+    border: 0;
+    border-radius: 5%;
+}
+#btn-busca{
+    background-color: #4d50ec;
+    border: 0;
+    padding: 5px;
+}
+
+img {
+    border-radius: 5%;
+}
+
+.btn-jogo:hover {
+    background-color: #504dec;
+}
+
+#btn-chat {
+    background-color: #3641d6;
+    border: 0;
+    border-radius: 5%;
+    padding: 2px;
+}
+
+.inputers {
+    border: 0;
+    border-radius: 2px;
+}
+
+h3 {
+    color: #4200ad;
+    font-size: 1.50em;
+    font-weight: 600;
+}
+
+@media (max-width: 600px) {
+    p {
+        font-size: 80%;
+    }
+
+    h2 {
+        font-size: 80%;
+    }
+
+    input {
+        size: 60%;
+    }
+
+    .registro {
+        width: 60%;
+        height: 60%;
+    }
+
+    header {
+        position: relative;
+    }
+
+    #caixa3 {
+        width: 100%;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    #caixa {
+        width: 100%;
+        margin: 10px;
+        padding: 10px;
+    }
+}
